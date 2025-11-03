@@ -1,152 +1,151 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #f8f9fa;
-    color: #333;
+  background-color: #f8f9fa;
+  color: #333;
 }
 
 /* Navbar */
- .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #212529;
-    padding: 20px 60px;
- }
-
- .logo {
-    color: #fff;
-    font-size: 1.4rem;
-    font-weight: bold;
- }
-
- .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 25px;
- }
-
- .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    transition: 0.3s;
- }
-
-.nav-links a:hover {
-    color: #00adb5;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212529;
+  padding: 20px 60px;
 }
 
+.logo {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00adb5;
+}
 
 /* Hero */
 
 .hero {
-    text-align: center;
-    padding: 120px 20px;
-    background: linear-gradient(135deg, #00adb5,#007b83);
-    color: white;
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(135deg, #00adb5, #007b83);
+  color: white;
 }
 
 .hero span {
-    color: fff;
-    font-weight: bold;
+  color: fff;
+  font-weight: bold;
 }
 
 .btn {
-    display: inline-block;
-    background: white;
-    color: #007b83;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s;
+  display: inline-block;
+  background: white;
+  color: #007b83;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
 .btn:hover {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 /* About */
 
 .about {
-    text-align: center;
-    padding: 80px 20px;
-    max-width: 700px;
-    margin: auto;
+  text-align: center;
+  padding: 80px 20px;
+  max-width: 700px;
+  margin: auto;
 }
 
 /* Projects */
 
 .projects {
-    padding: 80px 20px;
-    background: #eee;
-    text-align: center;
+  padding: 80px 20px;
+  background: #eee;
+  text-align: center;
 }
 
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
 }
 
 .project-card {
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-card img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* Contact */
 .contact {
-    padding: 80px 20px;
-    text-align: center;
+  padding: 80px 20px;
+  text-align: center;
 }
 
 .contact form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: auto;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 15px;
 }
 
-.contact input, .input textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-} 
+.contact input,
+.input textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
 .contact button {
-    background: #007b83;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
+  background: #007b83;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.contact button:hover{
-    background: green;
+.contact button:hover {
+  background: green;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background: #212529;
-    color: white;
+  text-align: center;
+  padding: 20px;
+  background: #212529;
+  color: white;
 }
