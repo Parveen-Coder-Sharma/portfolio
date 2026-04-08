@@ -5,144 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parveen Sharma | Frontend Developer</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- Navbar -->
     <header>
       <nav class="navbar">
-        <h1 class="logo">Parveen Sharma</h1>
+        <h1 class="logo">Parveen Sharma<span>.</span></h1>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#major-projects">Featured Work</a></li>
+          <li><a href="#projects">Mini Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <h2>Hi, I'm <span>Parveen Sharma</span> 👋</h2>
-      <p>Frontend Developer | JavaScript Enthusiast | Web Designer</p>
-      <a href="#projects" class="btn">View My Work</a>
+    <section id="home" class="hero fade-in">
+      <div class="hero-content">
+        <h2>Hi, I'm <span>Parveen Sharma</span> 👋</h2>
+        <p>Frontend Developer | JavaScript Enthusiast | Full-Stack Web Developer</p>
+        <a href="#major-projects" class="btn">View My Work</a>
+      </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="about">
+    <section id="about" class="about reveal">
       <h2>About Me</h2>
-      <p>
-        I’m a passionate frontend developer who enjoys creating fast, beautiful,
-        and responsive websites. I focus on clean code, user experience, and
-        modern web design.
-      </p>
+      <div class="about-content">
+        <p>
+          I’m a passionate Full-Stack developer who enjoys creating fast, beautiful,
+          and responsive websites. I focus on clean code, user experience, and
+          modern web design. Always eager to learn new technologies and build impactful solutions.
+        </p>
+      </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="projects">
-      <h2>My Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <img
-            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
-            alt="Landing Page Project"
-          />
-          <h3>Landing Page</h3>
-          <p>Modern Responsive landing page using HTML, CSS, and JavaScript.</p>
-          <a
-            href="https://Parveen-Coder-Sharma.github.io/landing-page/"
-            class="btn"
-            target="_blank"
-            >View Project</a
-          >
+    <section id="major-projects" class="major-projects reveal">
+      <h2>Major Projects</h2>
+      <p class="section-subtitle">My best and most complex builds</p>
+      
+      <div class="major-project-container">
+        <div class="major-card">
+          <div class="major-img-container">
+            <img src="https://images.unsplash.com/photo-1512054502232-10a0a035d672?auto=format&fit=crop&w=800&q=80" alt="Mobile E-commerce" />
+          </div>
+          <div class="major-info">
+            <h3>Mobile & Electronics E-Commerce Hub</h3>
+            <p>A comprehensive mobile e-commerce platform designed for browsing, selecting, and purchasing mobile devices, accessories, and telecommunication products seamlessly.</p>
+            <div class="tech-tags">
+              <span>React Native</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <a href="https://parveentech.netlify.app/" class="btn major-btn" target="_blank">View Project</a>
+          </div>
         </div>
 
-        <div class="project-card">
-          <img
-            src="images/TicTacToe.jpg"
-            alt="Cloudy sky weather background"
-          />
-          <h3>Tic-Tac-Toe Game</h3>
-          <p><strong>Interactive Tic-Tac-Toe Web App:</strong> A web-based version of the game built using technologies like HTML, CSS, and JavaScript, designed for interactive user experience</p>
-          <a
-            href="https://parveen-coder-sharma.github.io/Tic-Tac-Toe/"
-            target="_blank"
-            class="btn"
-            >View Project</a
-          >
-        </div>
-        
-        <div class="project-card">
-          <img
-            src="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?auto=format&fit=crop&w=800&q=80"
-            alt="Cloudy sky weather background"
-          />
-          <h3>Weather App</h3>
-          <p>Check real-time weather details using the OpenWeather API.</p>
-          <a
-            href="https://Parveen-Coder-Sharma.github.io/weather-app/"
-            target="_blank"
-            class="btn"
-            >View Project</a
-          >
-        </div>
-
-        <div class="project-card">
-  <img src="images/calculator.png" alt="Calculator App">
-  <h3>Calculator App</h3>
-  <p>
-    A modern calculator built using HTML, CSS, and JavaScript with features like history, theme toggle, and responsive design.
-  </p>
-  <a
-    href="https://Parveen-Coder-Sharma.github.io/calculator/"
-    target="_blank"
-    class="btn"
-  >
-    View Project
-  </a>
-</div>
-
-        <div class="project-card">
-          <img
-            src="https://images.unsplash.com/photo-1494173853739-c21f58b16055?auto=format&fit=crop&w=800&q=80"
-            alt="To-Do List App"
-          />
-          <h3>To-Do List App</h3>
-          <p>Organize your daily tasks easily using this To-Do List App.</p>
-          <a
-            href="https://Parveen-Coder-Sharma.github.io/todo-app/"
-            target="_blank"
-            class="btn"
-            >View Project</a
-          >
-        </div>
-
-        <div class="project-card">
-          <img src="https://picsum.photos/300/200?random=3" alt="Portfolio" />
-          <h3>Portfolio</h3>
-          <p>This portfolio website built with HTML, CSS, and JS.</p>
-          <a
-            href="https://Parveen-Coder-Sharma.github.io/portfolio/"
-            target="_blank"
-            class="btn"
-            >View Project</a
-          >
+        <div class="major-card reverse">
+          <div class="major-img-container">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="MERN Stack App" />
+          </div>
+          <div class="major-info">
+            <h3>Full-Stack MERN Task Manger Application</h3>
+            <p>A robust web application featuring complex state management, user authentication, and a scalable backend architecture for high performance.</p>
+            <div class="tech-tags">
+              <span>React</span>
+              <span>Express</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <a href="https://task-manager-pro-mern.vercel.app/" class="btn major-btn" target="_blank">View Project</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Contacts -->
-    <section id="contact" class="contact">
-      <h2>Contact Me</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
+    <section id="projects" class="projects reveal">
+      <h2>Other Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Landing Page Project" />
+          <h3>Landing Page</h3>
+          <p>Modern Responsive landing page using HTML, CSS, and JavaScript.</p>
+          <a href="https://Parveen-Coder-Sharma.github.io/landing-page/" class="btn" target="_blank">Live Demo</a>
+        </div>
+
+        <div class="project-card">
+          <img src="images/TicTacToe.jpg" alt="Tic-Tac-Toe Game" onerror="this.src='https://picsum.photos/400/250?random=1'" />
+          <h3>Tic-Tac-Toe Game</h3>
+          <p>An interactive web-based version of the classic game built for a fun user experience.</p>
+          <a href="https://parveen-coder-sharma.github.io/Tic-Tac-Toe/" target="_blank" class="btn">Live Demo</a>
+        </div>
+        
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?auto=format&fit=crop&w=800&q=80" alt="Weather App" />
+          <h3>Weather App</h3>
+          <p>Check real-time weather details using the OpenWeather API.</p>
+          <a href="https://Parveen-Coder-Sharma.github.io/weather-app/" target="_blank" class="btn">Live Demo</a>
+        </div>
+
+        <div class="project-card">
+          <img src="images/calculator.png" alt="Calculator App" onerror="this.src='https://picsum.photos/400/250?random=2'" />
+          <h3>Calculator App</h3>
+          <p>A modern calculator with history, theme toggle, and responsive design.</p>
+          <a href="https://Parveen-Coder-Sharma.github.io/calculator/" target="_blank" class="btn">Live Demo</a>
+        </div>
+
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1494173853739-c21f58b16055?auto=format&fit=crop&w=800&q=80" alt="To-Do List App" />
+          <h3>To-Do List App</h3>
+          <p>Organize your daily tasks easily using this interactive To-Do List.</p>
+          <a href="https://Parveen-Coder-Sharma.github.io/todo-app/" target="_blank" class="btn">Live Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <h2>Let's Connect</h2>
+      <p>Have an exciting project or just want to say hi? Drop a message!</p>
+      
+      <form id="contact-form">
+        <input type="hidden" name="access_key" value="ba66bf5a-da8b-4096-8768-19b89e314d24">
+        
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        
+        <button type="submit" class="btn submit-btn">Send Message</button>
+        
+        <p id="result-message" style="display: none; margin-top: 15px; font-weight: 600;"></p>
       </form>
     </section>
 
     <footer>
-      <p>© 2025 Parveen Sharma. All rights reserved.</p>
+      <p>© 2026 Parveen Sharma. Built with passion & code.</p>
+      <div class="socials">
+        <a href="https://github.com/Parveen-Coder-Sharma" target="_blank">GitHub</a> | <a href="#">LinkedIn</a>
+      </div>
     </footer>
 
     <script src="script.js"></script>
